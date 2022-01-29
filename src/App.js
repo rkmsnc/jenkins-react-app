@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useRef, useState, useMemo, Component } from "react";
 // import { CalculateFactorial } from "./CalculateFactorial";
 import ErrorBoundary from "./ErrorBoundary";
-const Hello = () => <h1>Hello World Main{dd}</h1>;
+const Hello = () => <h1>Hello World Main</h1>;
 class App extends Component {
   constructor(props) {
     super(props);
