@@ -10,11 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello World Header</h1>
-        <ErrorBoundary>
-          <Hello />
-        </ErrorBoundary>
-        <h1>Hello World Footer</h1>
+        <h1>Hello World</h1>
       </div>
     );
   }
