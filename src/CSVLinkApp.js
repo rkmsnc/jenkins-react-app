@@ -12,12 +12,14 @@ const csvData = [
 function CSVLinkApp() {
   const textInput = useRef(null); //reference
   const down = () => {
-    console.log(textInput);
     textInput.current.link.click(); //automatically click trigger
   };
   return (
     <div className="App">
-      <button onClick={down}>Down</button>
+      <h1>Hello</h1>
+      <button data-testid="dd" onClick={down}>
+        Down
+      </button>
       <CSVLink
         style={{
           display: "none",
